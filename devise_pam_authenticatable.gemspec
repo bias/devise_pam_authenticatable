@@ -5,12 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = "devise_pam_authenticatable"
-  s.version = "1.0.3"
+  s.version = "1.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.authors = ["James Wilson"]
   s.date = "2012-04-22"
   s.description = "For authenticating against PAM (Pluggable Authentication Modules)"
-  s.email = "trevor.bain@gmail.com"
+  s.email = "jwilson@lithiumcorp.com"
   s.extra_rdoc_files = [
     "README.md"
   ]
@@ -28,7 +29,7 @@ Gem::Specification.new do |s|
     "lib/devise_pam_authenticatable/strategy.rb",
     "rails/init.rb"
   ]
-  s.homepage = "http://github.com/bias/devise_pam_authenticatable"
+  s.homepage = "http://github.com/jwilson511/devise_pam_authenticatable"
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
   s.summary = "Devise PAM authentication module using rpam"
