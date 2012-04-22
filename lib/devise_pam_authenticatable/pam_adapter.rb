@@ -1,4 +1,4 @@
-require 'rpam' 
+require 'rpam-ruby19' 
 include Rpam
 
 module Devise
