@@ -28,9 +28,9 @@ begin
     gemspec.name = "devise_pam_authenticatable"
     gemspec.summary = "Devise PAM authentication module using rpam"
     gemspec.description = "For authenticating against PAM (Pluggable Authentication Modules)"
-    gemspec.email = "trevor.bain@gmail.com"
-    gemspec.homepage = "http://github.com/bias/devise_pam_authenticatable"
-	gemspec.authors = [ "Trevor Bain" ]
+	gemspec.email = "jwilson@lithiumcorp.com"
+	gemspec.homepage = "http://github.com/jwilson511/devise_pam_authenticatable"
+	gemspec.authors = ["James Wilson"]
     gemspec.add_runtime_dependency "devise", "> 1.1.0"
     gemspec.add_runtime_dependency "rpam-ruby19"
   end
